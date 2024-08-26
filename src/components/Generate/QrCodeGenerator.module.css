@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 25px;
+  margin-bottom: 30px;
+}
+
+.result {
+  border-radius: 5px;
+  background: #ece9e9;
+  border: 1px solid #f3c536;
+  padding: 10px;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background: #2470e2;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #659df1;
+  cursor: pointer;
+}
